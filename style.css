@@ -12,7 +12,7 @@ body {
     background-color: #D0B8A8;
 }
 
-/* Nav bar Section */
+/**** Nav bar Section ****/
 .nav-bar {
     background-color: #85586F;
     overflow: hidden;
@@ -43,7 +43,7 @@ body {
     background-color: gray;
 }
 
-/* Index Section */
+/**** Index Section ****/
 .biography h1 h4 p {
     float: left;
 }
@@ -104,7 +104,7 @@ body {
     color: white;
 }
 
-/* Contact Section */
+/**** Contact Section ****/
 .contact-heading {
     text-align: center;
     
@@ -146,7 +146,7 @@ ul {
     color: white;
 }
 
-/* About Me Section */
+/**** About Me Section ****/
 .about-me h1 {
     text-align: center;
     padding-top: 25px;
@@ -179,7 +179,30 @@ ul {
     width: 350px;
 }
 
-/* Project Section */
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.education-card {
+    background-color: #85586F;
+    height: 150px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.education h1 {
+    letter-spacing: normal;
+}
+
+/**** Project Section ****/
 .project-headings {
     padding-top: 50px;
     padding-bottom: 25px;
