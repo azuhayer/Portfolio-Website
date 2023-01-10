@@ -96,8 +96,12 @@ body {
     letter-spacing: .10em;
     border: 3px solid #555;
     border-radius: 10px;
-    color: purple;
+    color: black;
     
+}
+
+.biography a:hover {
+    color: white;
 }
 
 /* Contact Section */
@@ -183,6 +187,7 @@ ul {
 }
 
 .project-headings h1 {
+    padding-top: 5px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
@@ -198,7 +203,7 @@ ul {
 
 .card {
     background-color: #85586F;
-    height: 200px;
+    height: 250px;
     width: 400px;
     text-align: center;
     padding: 10px;
@@ -212,6 +217,10 @@ ul {
 .project-section a {
     text-decoration: none;
     color: #F8EDE3;
+}
+
+.project-section a:hover {
+    color: white;
 }
 
 .project-section h3 {
