@@ -58,10 +58,6 @@ body {
     background-color: #6E85B7;
 }
 
-.nav-bar a:active {
-    background-color: gray;
-}
-
 /**** Index Section ****/
 .biography h1 h4 p {
     float: left;
