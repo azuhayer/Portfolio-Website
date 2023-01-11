@@ -80,7 +80,7 @@ body {
 
 .image img {
     float: right;
-    height: 500px;
+    height: 655px;
     width: 500px;
     position: relative;
     right: 50px;
@@ -240,6 +240,7 @@ ul {
 .project-section h1 {
     padding-top: 20px;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 .project-section h3 {
@@ -257,6 +258,6 @@ ul {
 
 .project-section p {
     line-height: 1.5;
-    font-size: 17px;
+    font-size: 19px;
     color: black;
 }
