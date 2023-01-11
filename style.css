@@ -27,6 +27,25 @@ body {
     color: #F8EDE3;
 }
 
+#nav-title:hover {
+  animation: vibrate 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes vibrate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(-1deg); }
+    20% { transform: rotate(1deg); }
+    30% { transform: rotate(0deg); }
+    40% { transform: rotate(1deg); }
+    50% { transform: rotate(-1deg); }
+    60% { transform: rotate(0deg); }
+    70% { transform: rotate(-1deg); }
+    80% { transform: rotate(1deg); }
+    90% { transform: rotate(0deg); }
+    100% { transform: rotate(-1deg); }
+  }
+
 .nav-bar a {
     float: right;
     padding: 14px 16px;
@@ -49,8 +68,8 @@ body {
 }
 
 .biography h1 {
-    margin-top: 90px;
-    margin-left: 30px;
+    margin-top: 95px;
+    margin-left: 40px;
     margin-right: auto;
     font-size: 45px;
     color: #6E85B7;
@@ -59,7 +78,7 @@ body {
 
 .biography h4 {
     padding-top: 10px;
-    margin-left: 30px;
+    margin-left: 40px;
     color: black;
 }
 
@@ -69,13 +88,14 @@ body {
     width: auto;
     margin-left: 30px;
     margin-right: 580px;
-    margin-top: 45px;
+    margin-top: 70px;
     margin-bottom: 40px;
     font-size: 20px;
     line-height: 2;
     color: black;
-    border: 4px solid #555;
+    border: 3.5px solid #555;
     border-radius: 10px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image img {
@@ -85,10 +105,11 @@ body {
     position: relative;
     right: 50px;
     bottom: 85px;
-    border: 4px solid #555;
-    border-radius: 30px;
+    border-radius: 70px;
     display: block;
     margin-left: 90px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
+    
 }
 
 .biography a {
@@ -97,9 +118,10 @@ body {
     font-size: 25px;
     margin-left: 30px;
     letter-spacing: .10em;
-    border: 4px solid #555;
+    border: 3.5px solid #555;
     border-radius: 10px;
     color: #6E85B7;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .biography a:hover {
@@ -146,7 +168,7 @@ ul {
 }
 
 .contact-buttons li a:hover {
-    color: white;
+    color: lightgray;
 }
 
 /**** About Me Section ****/
@@ -170,8 +192,7 @@ ul {
 }
 
 .about-me img {
-    border: 5px solid #555;
-    border-radius: 30px;
+    border-radius: 60px;
     margin-left: auto; 
     margin-right: auto;
     margin-bottom: 30px;
@@ -179,6 +200,7 @@ ul {
     position: relative;
     height: 250px;
     width: 250px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .education {
@@ -198,6 +220,7 @@ ul {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 50px;
+    box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .education h1 {
@@ -235,6 +258,7 @@ ul {
     text-align: center;
     padding: 10px;
     border-radius: 10px;
+    box-shadow: 5px 10px 8px 5px rgba(0, 0, 0, 0.2);
 }
 
 .project-section h1 {
