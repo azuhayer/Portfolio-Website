@@ -56,6 +56,7 @@ body {
 
 .nav-bar a:hover {
     background-color: #6E85B7;
+    transition: all ease-in-out 250ms;
 }
 
 /**** Index Section ****/
@@ -255,13 +256,13 @@ ul {
     padding: 10px;
     border-radius: 10px;
     box-shadow: 5px 10px 8px 5px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
 }
 
 .card:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
-    transition: all ease-in-out 250ms;
 }
 
 .project-section h1 {
@@ -291,12 +292,14 @@ ul {
 
 #project2 img {
     height: 200px;
-    width: 400px;
+    width: 430px;
     padding: 10px;
+    border-radius: 20px;
 }
 
 #project3 img {
     height: 200px;
-    width: 450px;
+    width: 460px;
     padding: 10px;
+    border-radius: 20px;
 }
