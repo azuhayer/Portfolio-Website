@@ -89,19 +89,19 @@ body {
     font-size: 20px;
     line-height: 2;
     color: black;
-    border: 3.5px solid #555;
+    border: 3.5px solid transparent;
     border-radius: 10px;
     box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .image img {
     float: right;
-    height: 655px;
-    width: 500px;
+    height: 600px;
+    width: 450px;
     position: relative;
-    right: 50px;
+    right: 80px;
     bottom: 85px;
-    border-radius: 70px;
+    border-radius: 50px;
     display: block;
     margin-left: 90px;
     box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
@@ -113,7 +113,7 @@ body {
     font-size: 25px;
     margin-left: 30px;
     letter-spacing: .10em;
-    border: 3.5px solid #555;
+    border: 3.5px solid transparent;
     border-radius: 10px;
     color: #6E85B7;
     box-shadow: 10px 10px 8px 0 rgba(0, 0, 0, 0.2);
@@ -249,7 +249,7 @@ ul {
 
 .card {
     background-color: #6E85B7;
-    height: 250px;
+    height: 430px;
     width: 500px;
     text-align: center;
     padding: 10px;
@@ -261,6 +261,7 @@ ul {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    transition: all ease-in-out 250ms;
 }
 
 .project-section h1 {
@@ -286,4 +287,16 @@ ul {
     line-height: 1.5;
     font-size: 19px;
     color: black;
+}
+
+#project2 img {
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+
+#project3 img {
+    height: 200px;
+    width: 450px;
+    padding: 10px;
 }
