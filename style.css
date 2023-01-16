@@ -255,7 +255,7 @@ ul {
 
 .card {
     background-color: #6E85B7;
-    height: 430px;
+    height: 450px;
     width: 500px;
     text-align: center;
     padding: 10px;
@@ -293,6 +293,13 @@ ul {
     line-height: 1.5;
     font-size: 19px;
     color: black;
+}
+
+#project1 img {
+    height: 200px;
+    width: 430px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 #project2 img {
