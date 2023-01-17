@@ -173,7 +173,8 @@ ul {
 
 .contact-buttons li {
     display: inline-block;
-    margin: 7px;
+    margin: 5px;
+    padding: 5px;
     list-style: none;
     text-align: center;
 }
